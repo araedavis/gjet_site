@@ -1,0 +1,221 @@
+/* Fonts
+================================*/
+
+body,
+#header h2,
+#header div,
+#form1 label,
+#title111 {
+  font-family: 'Raleway', 'Helvetica', 'Ariel', sans-serif;
+}
+
+
+/* Header
+================================*/
+
+.header {
+  background-color: #2B2D42;
+  border-bottom: 3px solid #8D99AE;
+  margin-top: -15px;
+
+}
+
+.logo li {
+  margin-left: -25px;
+  display: inline-block;
+  color: #D90429;
+  font-family: 'Shadows Into Light', 'Raleway', 'Ariel', sans-serif;
+  font-style: strong;
+  font-size: 48px;
+
+}
+
+.nav li {
+  display: inline-block;
+  padding-top: 10px;
+  float: right;
+}
+
+.nav li a {
+  color: #8D99AE;
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.nav li a:hover {
+  background-color: #EDF2F4;
+}
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover {
+  background-color: #D90429;
+}
+
+
+
+/* Footer
+================================*/
+.main-footer {
+  padding: 25px;
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  margin: auto;
+  text-align: center;
+}
+
+.icons li {
+  display: inline;
+  padding: 10px;
+
+}
+
+
+    /*   TO FIX ------------------------->
+    p element is off from center alignment of social media icons.*/
+
+
+
+/* Body
+================================*/
+
+.container {
+  width: 100%;
+  padding: 15px;
+  color: #2B2D42;
+  background-color: #EDF2F4; 
+  border-bottom: 3px solid #8D99AE;  
+}
+
+
+.row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+} 
+
+.intro h1,
+.intro h2, 
+.sub-header,
+.sub-content {
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 32px;
+  font-weight: bold
+}
+
+.sub-header {
+  font-size: 32px;
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.img-circle {
+  border: 3px solid #8D99AE;
+  box-shadow: 5px 5px 10px #8D99AE;
+}
+
+.ekko-lightbox .glyphicon-chevron-left {
+    left: 0;
+    float: left;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+/* About Me styles
+================================*/
+
+.about-imgs img {
+  display: block;
+  max-width: 200px;
+}
+
+/* Other Projects styles
+================================*/
+
+.carousel-caption {
+  color: #2B2D42;
+}
+
+.carousel-indicators li {
+  background-color: #2B2D42;
+  border: 1px solid #2B2D42 ;
+}
+
+.carousel-indicators .active {
+  background-color: #D90429;
+}
+
+
+/*To do: resize carousel photo images
+
+reposition captions to right side of page
+fix margins
+
+
+
+
+/* Contact Me styles
+================================*/
+#container {
+  width: 95%;
+  background-color: #8D99AE;
+  margin-top: 25px;
+  color: #2B2D42;
+}
+
+#header h2 {
+  color: #EDF2F4;
+  font-weight: bold;
+  text-align: center;
+}
+
+#header div,
+#form1 label,
+#title111 {
+  color: #2B2D42;
+  font-size: 15px;
+}
+
+/* submit button */
+#submit-button {
+  text-align: center;
+}
+
+#saveForm {
+  background-color: #D90429;
+  font-size: 17px;
+  color: #EDF2F4;
+  padding: 10px 29px;
+  border-radius: 6px;
+  line-height: 1.471;
+  border: 0;
+}
+
+
+/* Fix Header and Footer*/
+#form_logo {
+  float: left;
+}
+
+#form_footer {
+  margin: -25px;
+}
+
+.powertiny {
+  padding-bottom: 50px;
+}
+
+
+/* Form Fixes to Finish
+================================*/
+/* fields - look at Flat UI docs - want to make rounded border radii and a red thicker border. Get rid of red field highlighter */
+/* radio buttons - look at FLat UI docs and/or Bootstrap docs*/
+/* Add Roller derby name field in HTML */
+/* Pick up or shipping? field */
+
+
