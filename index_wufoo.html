@@ -17,6 +17,7 @@ Submit a Custom Trophy Request!
 <link href="css/theme.css" rel="stylesheet">
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="fonts/glyphicons-halflings-regular.svg">
 <!-- My Fonts and CSS -->
 <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Raleway:700,300' rel='stylesheet' type='text/css'>
 <link href="css/main.css" rel="stylesheet">
@@ -77,6 +78,14 @@ Name
 <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="24" tabindex="2" required />
 <label for="Field2">Last</label>
 </span>
+</li>
+<li id="foli113" class="notranslate      ">
+<label class="desc" id="title113" for="Field113">
+Roller Derby Name
+</label>
+<div>
+<input id="Field113" name="Field113" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup=""       />
+</div>
 </li>
 <li id="foli3" class="notranslate      ">
 <label class="desc" id="title3" for="Field3">
@@ -174,7 +183,62 @@ Date needed:
 <!--<span id="cal4">    Shut off Wufoo date picker for now -AD
 <img id="pick4" class="datepicker" src="images/calendar.png" alt="Pick a date." data-date-format="yyyy-mm-dd" data-date="2015-07-31" />
 </span> -->
-</li> <li class="buttons ">
+</li> 
+
+<li id="foli215" class="notranslate  notStacked     ">
+<fieldset>
+<![if !IE | (gte IE 8)]>
+<legend id="title215" class="desc">
+Trophies are made in Portland, Oregon. Are you local, or do you require shipping?
+</legend>
+<![endif]>
+<!--[if lt IE 8]>
+<label id="title215" class="desc">
+Trophies are made in Portland, Oregon. Are you local, or do you require shipping?
+</label>
+<![endif]-->
+<div>
+<input id="radioDefault_215" name="Field215" type="hidden" value="" />
+<span>
+<input id="Field215_0" name="Field215" type="radio" class="field radio" value="Pick Up" tabindex="15" checked="checked"     />
+<label class="choice" for="Field215_0" >
+Pick Up</label>
+</span>
+<span>
+<input id="Field215_1" name="Field215" type="radio" class="field radio" value="Shipping" tabindex="16"     />
+<label class="choice" for="Field215_1" >
+Shipping</label>
+</span>
+</div>
+</fieldset>
+</li>
+<li id="foli217" class="complex notranslate      ">
+<label class="desc" id="title217" for="Field217">
+Shipping Address
+</label>
+<div>
+<span class="full addr1">
+<input id="Field217" name="Field217" type="text" class="field text addr" value="" tabindex="17"       />
+<label for="Field217">Street Address</label>
+</span>
+<span class="full addr2">
+<input id="Field218" name="Field218" type="text" class="field text addr" value="" tabindex="18" />
+<label for="Field218">Address Line 2</label>
+</span>
+<span class="left city">
+<input id="Field219" name="Field219" type="text" class="field text addr" value="" tabindex="19" />
+<label for="Field219">City</label>
+</span>
+<span class="right state">
+<input id="Field220" name="Field220" type="text" class="field text addr" value="" tabindex="20" />
+<label for="Field220">State / Province / Region</label>
+</span>
+<span class="left zip">
+<input id="Field221" name="Field221" type="text" class="field text addr" value="" maxlength="15" tabindex="21" />
+<label for="Field221">Postal / Zip Code</label>
+</span>
+
+<li class="buttons ">
 <div id="submit-button">
 
                     <input id="saveForm" name="saveForm" class="btTxt submit"
@@ -187,6 +251,7 @@ Date needed:
 <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
 <input type="hidden" id="idstamp" name="idstamp" value="BaqTMAh3xnhNPAJoXQgUlVf2w1pd2rj1/b7PyTHXMIo=" />
 </li>
+
 </ul>
 </form>
  

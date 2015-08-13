@@ -5,7 +5,8 @@ body,
 #header h2,
 #header div,
 #form1 label,
-#title111 {
+#title111,
+#title215 {
   font-family: 'Raleway', 'Helvetica', 'Ariel', sans-serif;
 }
 
@@ -179,6 +180,11 @@ fix margins
 #title111 {
   color: #2B2D42;
   font-size: 15px;
+}
+
+/* Input Styles */
+.field {
+  border-radius: 6px;
 }
 
 /* submit button */
